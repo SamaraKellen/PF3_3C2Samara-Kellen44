@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+     <main> 
+      <div class="section">
+
+        <div class="title"> Valor Futuro Poupado </div>
+        <h2>Estudo recente revelou que os brasileiros não têm o hábito de poupar dinheiro. Este costume é grave, pois  a poupança pode ser usada  para imprevistos, ter uma aposentadoria tranquila ou realizar um sonho de consumo.
+        </h2>
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual é o valor aplicado mensalmente? Ex: 500" type="number" id='valor_mensalmente' required="required" >
+      </div>
+  
+        <div class="input">
+            <input  placeholder="Qual é a taxa de juros? Ex: 5%"  type="number" id='taxa'required="required">
+        </div>
+
+        <div class="input">
+            <input  placeholder="Qual é o número de parcelas mensais ? Ex: 6"  type="number" id='parcelas 'required="required">
+        </div>
+          
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+
+        <footer> Atenção! Estes resultados devem ser interpretado por um(a) profissional de contabilidade.</footer>  
+
+      </div>
+    </main>
+    <script src="prova/script.js"></script>
+  </body>
+</html>
